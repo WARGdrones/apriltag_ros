@@ -142,7 +142,7 @@ TagDetector::TagDetector(ros::NodeHandle pnh) :
   }
   else if (family_ == "tagCircle49h12")
   {
-    tf_ = tagCircle49h12_create();
+    //tf_ = tagCircle49h12_create(); //TODO: commented out because of errors
   }
   else
   {

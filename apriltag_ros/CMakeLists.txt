@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(apriltag_ros)
+set(CMAKE_BUILD_TYPE Debug)
 
 find_package(catkin REQUIRED COMPONENTS
   cmake_modules
